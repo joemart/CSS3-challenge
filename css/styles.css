@@ -68,6 +68,28 @@ body{
 	font-size: 3em;
 }
 
+.para-1{
+	display:grid;
+}
+
+
+
+.para-1 h2{
+	text-align: center;
+	font-family: sans-serif;
+	letter-spacing: 0.5em;
+	background:rgb(250,250,250);
+	padding:3rem;
+}
+
+.para-1 p{
+
+}
+
+.para-1 img{
+	grid-area: 1/2/span 2/ span 1;
+}
+
 img {
 	width:500px;
 	height: 500px;
